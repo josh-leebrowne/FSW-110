@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(143, 93, 37);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    background-color: rgb(116, 85, 48);
+    text-align: center;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 3px solid antiquewhite;
+    border-radius: 30px;
+    
+}
+
+.yourOrder {
+    text-align: center;
+}
+
+.yourTotal {
+    text-align: center;
+}
+
+button {
+    background-color: rgba(240, 161, 15, 0.466);
+    width: 200px;
+    height:50px;
+    border-radius: 30px;
+    justify-content: left;
+    grid-column: 2;
+}
+img {
+    width: 350px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px;
+    padding: 5px;
+    border: 3px solid rgb(136, 106, 43);
+    border-radius: 30px;
+    background-color: antiquewhite;
+}
+
